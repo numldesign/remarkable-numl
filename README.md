@@ -1,6 +1,6 @@
 ## remarkable-numl
 
-A remarkable plugin for Numl syntax.
+A [Remarkable](https://github.com/jonschlinkert/remarkable) plugin for Numl syntax.
 
 ## Install
 
