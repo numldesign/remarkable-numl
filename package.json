@@ -1,0 +1,31 @@
+{
+  "name": "remarkable-numl",
+  "version": "0.1.0",
+  "description": "Remarkable plugin for Numl syntax",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numldesign/remarkable-numl.git"
+  },
+  "keywords": [
+    "remarkable-plugin",
+    "numl",
+    "design"
+  ],
+  "author": "Andrey Yamanov <tenphi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/numldesign/remarkable-numl/issues"
+  },
+  "homepage": "https://github.com/numldesign/remarkable-numl#readme",
+  "devDependencies": {
+    "diacritics-map": "^0.1.0",
+    "markdown-toc": "^1.2.0",
+    "remarkable": "^2.0.1",
+    "strip-color": "^0.1.0"
+  }
+}
