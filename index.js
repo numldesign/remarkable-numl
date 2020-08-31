@@ -140,7 +140,7 @@ rules.fence_custom = {};
 
 rules.heading_open = function (tokens, idx /*, options, env */) {
   return '<nu-h' + tokens[idx].hLevel + (idx ? ' padding="1em top"' : '') + ' role="heading" aria-level="' + tokens[idx].hLevel
-    + ' id="' + slugify(tokens[idx + 1].content) + '">';
+    + '" id="' + slugify(tokens[idx + 1].content) + '">';
 };
 rules.heading_close = function (tokens, idx /*, options, env */) {
   return '</nu-h' + tokens[idx].hLevel + '>\n';
