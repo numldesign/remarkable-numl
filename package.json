@@ -1,6 +1,6 @@
 {
   "name": "remarkable-numl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remarkable plugin for Numl syntax",
   "main": "index.js",
   "type": "module",
@@ -23,10 +23,11 @@
     "url": "https://github.com/numldesign/remarkable-numl/issues"
   },
   "homepage": "https://github.com/numldesign/remarkable-numl#readme",
-  "devDependencies": {
+  "dependencies": {
     "diacritics-map": "^0.1.0",
-    "markdown-toc": "^1.2.0",
-    "remarkable": "^2.0.1",
     "strip-color": "^0.1.0"
+  },
+  "devDependencies": {
+    "remarkable": "^2.0.1"
   }
 }
