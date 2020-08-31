@@ -1,6 +1,6 @@
-import Remarkable from 'remarkable';
-import stripColor from 'strip-color';
-import diacritics from 'diacritics-map';
+const Remarkable = require('remarkable');
+const stripColor = require('strip-color');
+const diacritics = require('diacritics-map');
 
 const { has, unescapeMd, replaceEntities, escapeHtml } = Remarkable.utils;
 
@@ -470,7 +470,7 @@ const getBreak = rules.getBreak = function getBreak(tokens, idx) {
   return '\n';
 };
 
-export default function NumlPlugin(remarkable) {
+module.exports = function NumlPlugin(remarkable) {
   Object.entries(rules)
     .forEach(([name, rule]) => {
       remarkable.renderer.rules[name] = rule;

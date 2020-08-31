@@ -1,7 +1,7 @@
-import RemarkableModule from 'remarkable';
-import NumlPlugin from './index.js';
+const { Remarkable } = require('remarkable');
+const NumlPlugin = require('./index.js');
 
-const md = new RemarkableModule.Remarkable();
+const md = new Remarkable();
 
 md.use(NumlPlugin);
 
