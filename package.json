@@ -1,6 +1,6 @@
 {
   "name": "remarkable-numl",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Remarkable plugin for Numl syntax",
   "main": "index.js",
   "scripts": {

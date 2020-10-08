@@ -230,10 +230,10 @@ rules.image = function (tokens, idx, options /*, env */) {
  */
 
 rules.table_open = function (/* tokens, idx, options, env */) {
-  return '<nu-table role="table">\n';
+  return '<nu-block width="max 100%" overflow="auto hidden"><nu-table role="table">\n';
 };
 rules.table_close = function (/* tokens, idx, options, env */) {
-  return '</nu-table>\n';
+  return '</nu-table></nu-block>\n';
 };
 rules.thead_open = function (/* tokens, idx, options, env */) {
   return '<nu-rowgroup role="rowgroup">\n';

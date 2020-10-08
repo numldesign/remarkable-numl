@@ -20,4 +20,9 @@ Some text
 
 ---
 
-Another text`));
+|H1|H2|
+|----|----|
+|Cell1|Cell2|
+
+`));
+
